@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4002243388">
+    <data-source source="LOCAL" name="schema.sql" uuid="d76d09a8-46da-47bd-a7e5-a55d78419209">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/app.config.from_envvar('FLASKR_SETTINGS', silent=True)</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="schema" uuid="e41ca29f-e8f3-40a5-89b3-faf7e0c64b4a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/schema.sql</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Sqlite (Xerial) - flaskr" uuid="e1d2b02b-3d88-49bf-95b9-204c2ac6dbe2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/</jdbc-url>
+    </data-source>
+  </component>
+</project>
